@@ -12,7 +12,7 @@
           fetch="https://github.com/ArrowOS" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="dot" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="dotfe" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Kneba" revision="lineage-19.1" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="dot" />
