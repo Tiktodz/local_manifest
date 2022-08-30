@@ -4,13 +4,30 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="Dot"
-          fetch="https://github.com/DotOS" />
+  <remote name="Kneba"
+          fetch="https://github.com/Kneba" />
+  <remote name="los"
+          fetch="https://github.com/LineageOS" />
+  <remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="dotfe" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="dot" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Kneba" revision="lineage-19.1" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="dot" />
+
+        <!-- remove -->
+        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+        <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+	
+        <!-- Prebuilts -->
+	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
+
+	<!-- Hals -->
+	<project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+  	<project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+  	<project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
 
 </manifest>
