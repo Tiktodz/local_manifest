@@ -4,13 +4,25 @@
 
   <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
-  <remote name="RyuujiX"
-        fetch="https://github.com/RyuujiX" />
+  <remote name="SonicBSV"
+        fetch="https://github.com/SonicBSV" />
+  <remote name="ArrowOS"
+        fetch="https://github.com/ArrowOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="flos" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="master" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="RyuujiX" revision="r7/eas"/>
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-1" remote="SonicBSV" revision="r7/eas"/>
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="master" />
+
+        <!-- Remove -->
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+
+        <!-- Sync hals -->
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
 
 </manifest>
