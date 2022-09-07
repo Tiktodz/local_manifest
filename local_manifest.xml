@@ -11,6 +11,9 @@
         <remote name="Panchajanya1999"
         fetch="https://gitlab.com/Panchajanya1999" />
 
+        <remote name="ArrowOS"
+        fetch="https://gitlab.com/ArrowOS" />
+
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="master" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="rice" />
@@ -19,5 +22,18 @@
 
         <!-- azure clang 15.0.0 -->
         <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" />
+
+
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+
+        <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="ArrowOS" revision="arrow-12.1" />
+        <project path="vendor/qcom/opensource/display-commonsys-intf" name="android_vendor_qcom_opensource_display-commonsys" remote="ArrowOS" revision="arrow-12.1" />
+        <project path="vendor/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+        <project path="vendor/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+        <project path="vendor/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
 
 </manifest>
