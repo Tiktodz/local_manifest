@@ -27,13 +27,13 @@
         <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys" />
         <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <!-- remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" /-->
 
         <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="ArrowOS" revision="arrow-12.1" />
         <project path="vendor/qcom/opensource/display-commonsys-intf" name="android_vendor_qcom_opensource_display-commonsys" remote="ArrowOS" revision="arrow-12.1" />
         <project path="vendor/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
-        <project path="vendor/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
-        <project path="vendor/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+        <!-- project path="vendor/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+        <project path="vendor/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" /-->
 
 </manifest>
