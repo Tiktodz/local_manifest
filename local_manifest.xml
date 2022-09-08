@@ -31,8 +31,8 @@
         <remove-project name="LineageOS/android_hardware_qcom_media" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
 
-        <project path="vendor/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="karthik1896" revision="12.1" />
-        <project path="vendor/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="karthik1896" revision="12.1" />
-        <project path="vendor/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="karthik1896" revision="12.1" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="karthik1896" revision="12.1" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="karthik1896" revision="12.1" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="karthik1896" revision="12.1" />
 
 </manifest>
