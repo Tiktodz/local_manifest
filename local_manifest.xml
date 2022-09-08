@@ -12,7 +12,7 @@
         fetch="https://gitlab.com/Panchajanya1999" />
 
         <remote name="ArrowOS"
-        fetch="https://gitlab.com/ArrowOS" />
+        fetch="https://github.com/ArrowOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="master" />
