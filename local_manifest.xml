@@ -8,8 +8,8 @@
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
 
-        <remote name="Panchajanya1999"
-        fetch="https://gitlab.com/Panchajanya1999" />
+        <!-- remote name="Panchajanya1999"
+        fetch="https://gitlab.com/Panchajanya1999" /-->
 
         <!-- remote name="karthik1896"
         fetch="https://github.com/karthik1896" /-->
