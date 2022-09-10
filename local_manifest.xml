@@ -8,31 +8,32 @@
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
 
-        <!-- remote name="Panchajanya1999"
-        fetch="https://gitlab.com/Panchajanya1999" /-->
+        <remote name="Panchajanya1999"
+        fetch="https://gitlab.com/Panchajanya1999" />
 
-        <remote name="karthik1896"
-        fetch="https://github.com/karthik1896" />
+        <!-- remote name="karthik1896"
+        fetch="https://github.com/karthik1896" /-->
 
-        <remote name="Joker-V2"
-        fetch="https://gitlab.com/Joker-V2" />
+        <!-- remote name="Joker-V2"
+        fetch="https://gitlab.com/Joker-V2" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="L" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="rice" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="T" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="arrow" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Kneba" revision="lineage-19.1" />
 
         <!-- azure clang 15.0.0 -->
-        <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
-        <project path="vendor/ANXCamera" name="android_vendor_ANXCamera" remote="Joker-V2" revision="twelve" />
+        <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" />
+        <!-- project path="vendor/ANXCamera" name="android_vendor_ANXCamera" remote="Joker-V2" revision="twelve" /-->
 
-        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <!-- remove-project name="LineageOS/android_hardware_qcom_display" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
 
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="karthik1896" revision="12.1" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="karthik1896" revision="12.1" />
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="karthik1896" revision="12.1" />
+        -->
 
 </manifest>
