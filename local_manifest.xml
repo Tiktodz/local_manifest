@@ -7,8 +7,8 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="fluid" />
-        <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
-        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="rice" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="master" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="L" />
 
 </manifest>
