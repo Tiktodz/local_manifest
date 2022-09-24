@@ -5,10 +5,13 @@
   <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
+  <remote name="Kneba"
+        fetch="https://github.com/Kneba" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="btlg" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="master" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master"/>
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Kneba" revision="lineage-19.1"/>
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="L" />
 
 </manifest>
