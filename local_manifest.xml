@@ -7,7 +7,7 @@
   <remote name="Kneba"
         fetch="https://github.com/Kneba" />
   <remote name="Lineage"
-        fetch="https://github.com/LineageOS" />
+        fetch="https://github.com/LineageOS"
         revision="refs/heads/lineage-20.0-caf-msm8998" />
 
         <!-- Sync trees -->
