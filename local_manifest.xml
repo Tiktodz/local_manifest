@@ -12,7 +12,7 @@
         fetch="https://github.com/kdrag0n" />
 
   <remote name="Lineage"
-        fetch="https://github.com/LineageOS"
+        fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="spark" />
