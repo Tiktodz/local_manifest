@@ -11,8 +11,8 @@
         <!-- remote name="Panchajanya1999"
         fetch="https://gitlab.com/Panchajanya1999" /-->
 
-        <remote name="karthik1896"
-        fetch="https://github.com/karthik1896" />
+        <!-- remote name="karthik1896"
+        fetch="https://github.com/karthik1896" /-->
 
         <!-- remote name="Joker-V2"
         fetch="https://gitlab.com/Joker-V2" /-->
@@ -21,7 +21,7 @@
         fetch="https://github.com/bdjmfoe" />
 
         <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="L" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="T" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="rice" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Kneba" revision="lineage-19.1" />
