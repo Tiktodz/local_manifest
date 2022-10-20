@@ -8,8 +8,8 @@
         <!-- remote name="Kneba"
         fetch="https://github.com/Kneba" /-->
 
-        <remote name="Panchajanya1999"
-        fetch="https://gitlab.com/Panchajanya1999" />
+        <!-- remote name="Panchajanya1999"
+        fetch="https://gitlab.com/Panchajanya1999" /-->
 
         <!-- remote name="karthik1896"
         fetch="https://github.com/karthik1896" /-->
@@ -17,8 +17,8 @@
         <!-- remote name="Joker-V2"
         fetch="https://gitlab.com/Joker-V2" /-->
 
-        <!-- remote name="bdjmfoe"
-        fetch="https://github.com/bdjmfoe" /-->
+        <remote name="ImSurajxD"
+        fetch="https://gitlab.com/ImSurajxD" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="T" />
@@ -26,10 +26,10 @@
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
 
-        <!-- azure clang 15.0.0 -->
-        <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" />
+        <!-- Toolchains -->
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
         <!-- project path="vendor/ANXCamera" name="android_vendor_ANXCamera" remote="Joker-V2" revision="twelve" /-->
-        <!-- project remote="bdjmfoe" name="clang-r416183b1" revision="main" path="prebuilts/clang/host/linux-x86/clang-r416183b1" /-->
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
         <!-- remove-project name="LineageOS/android_hardware_qcom_display" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
