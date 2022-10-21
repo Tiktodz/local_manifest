@@ -11,7 +11,7 @@
         <!-- remote name="Panchajanya1999"
         fetch="https://gitlab.com/Panchajanya1999" /-->
 
-        <remote name="lineage"
+        <remote name="Lineage"
         fetch="https://github.com/LineageOS" />
 
         <!-- remote name="Joker-V2"
