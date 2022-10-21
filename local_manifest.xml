@@ -14,8 +14,8 @@
         <remote name="Lineage"
         fetch="https://github.com/LineageOS" />
 
-        <!-- remote name="Joker-V2"
-        fetch="https://gitlab.com/Joker-V2" /-->
+        <remote name="pe"
+        fetch="https://gitlab.com/PixelExperience" />
 
         <remote name="ImSurajxD"
         fetch="https://gitlab.com/ImSurajxD" />
@@ -34,5 +34,8 @@
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Lineage" revision="lineage-20.0-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="Lineage" revision="lineage-20.0-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="Lineage" revision="lineage-20.0-caf-msm8998" />
+
+        <remove-project name="android_vendor_qcom_opensource_dataservices" />
+        <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pe" revision="thirteen" />
 
 </manifest>
