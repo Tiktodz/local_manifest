@@ -17,8 +17,8 @@
         <remote name="pe"
         fetch="https://github.com/PixelExperience" />
 
-        <remote name="ImSurajxD"
-        fetch="https://gitlab.com/ImSurajxD" />
+        <!-- remote name="ImSurajxD"
+        fetch="https://gitlab.com/ImSurajxD" /-->
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="T" />
@@ -29,7 +29,7 @@
         <!-- Toolchains -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
         <!-- project path="vendor/ANXCamera" name="android_vendor_ANXCamera" remote="Joker-V2" revision="twelve" /-->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" /-->
 
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Lineage" revision="lineage-20.0-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="Lineage" revision="lineage-20.0-caf-msm8998" />
