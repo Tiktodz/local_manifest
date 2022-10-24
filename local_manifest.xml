@@ -11,6 +11,9 @@
   <!-- remote name="Panchajanya1999"
         fetch="https://gitlab.com/Panchajanya1999" /-->
 
+  <remote name="xd"
+        fetch="https://github.com/xdroid-oss" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="xdroid" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="master" />
