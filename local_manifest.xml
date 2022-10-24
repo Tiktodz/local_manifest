@@ -11,7 +11,7 @@
   <!-- remote name="Panchajanya1999"
         fetch="https://gitlab.com/Panchajanya1999" /-->
 
-  <remote name="xd"
+  <remote name="xdroid"
         fetch="https://github.com/xdroid-oss" />
 
         <!-- Sync trees -->
@@ -28,9 +28,9 @@
 	<remove-project name="xd_packages_apps_Settings" />
 	<remove-project name="xd_frameworks_base" />
 	<remove-project name="xd_vendor_xdroidui" />
-	<project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xd" revision="thirteen-staging" />
-	<project path="packages/apps/Settings" name="xd_packages_apps_Settings" remote="xd" revision="thirteen-staging" />
-	<project path="frameworks/base" name="xd_frameworks_base" remote="xd" revision="thirteen-staging" />
-	<project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xd" revision="thirteen-staging" />
+	<project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xdroid" revision="thirteen-staging" />
+	<project path="packages/apps/Settings" name="xd_packages_apps_Settings" remote="xdroid" revision="thirteen-staging" />
+	<project path="frameworks/base" name="xd_frameworks_base" remote="xdroid" revision="thirteen-staging" />
+	<project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xdroid" revision="thirteen-staging" />
 
 </manifest>
