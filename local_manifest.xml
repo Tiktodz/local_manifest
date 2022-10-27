@@ -18,7 +18,7 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="xdroid" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="TNL" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="strongreasons" revision="eas-13"/>
-        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="xd" />
+        <project path="device/asus/sdm660-common" name="android_asus_sdm660-common" remote="Tiktodz" revision="TNL" />
 
         <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" /-->
