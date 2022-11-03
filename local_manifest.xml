@@ -5,21 +5,22 @@
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
 
-  <remote name="Stalick"
-          fetch="https://github.com/Stalick" />
+  <!-- remote name="Stalick"
+          fetch="https://github.com/Stalick" /-->
 
-  <remote name="Slowhy"
-          fetch="https://github.com/Slowhy" />
+  <!-- remote name="Slowhy"
+          fetch="https://github.com/Slowhy" /-->
 
-  <remote name="Lineage"
-          fetch="https://github.com/LineageOS" />
+  <!-- remote name="Lineage"
+          fetch="https://github.com/LineageOS" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="corvus" />
-        <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
-        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="corvus" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="oct" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="TNL" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660p" remote="Tiktodz" revision="eas" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="TNL" />
 
+        <!--
         <remove-project name="android_frameworks_native"/>
         <remove-project name="android_hardware_qcom_audio"/>
         <remove-project name="android_hardware_qcom_display"/>
@@ -31,5 +32,6 @@
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="Lineage" revision="lineage-19.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="Lineage" revision="lineage-19.1-caf-msm8998" />
         <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="Stalick" revision="12"/>
+        --/>
 
 </manifest>
