@@ -29,7 +29,7 @@
         <!-- Toolchains -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
         <!-- project path="vendor/ANXCamera" name="android_vendor_ANXCamera" remote="Joker-V2" revision="twelve" /-->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" /-->
 
         <!-- remove-project name="LineageOS/android_hardware_qcom_display" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
