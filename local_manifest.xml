@@ -11,17 +11,17 @@
         <!-- remote name="Panchajanya1999"
         fetch="https://gitlab.com/Panchajanya1999" /-->
 
-        <!-- remote name="karthik1896"
-        fetch="https://github.com/karthik1896" /-->
+        <remote name="strongreasons"
+        fetch="https://github.com/strongreasons" />
 
         <!-- remote name="Joker-V2"
         fetch="https://gitlab.com/Joker-V2" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="TNL" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="strongreasons" revision="arrow" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="arrow" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="TNL" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="Turu" />
+        <project path="vendor/asus" name="vendor_asus" remote="strongreasons" revision="nightlight" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660p" remote="Tiktodz" revision="eas" />
 
         <!-- azure clang 15.0.0 -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
