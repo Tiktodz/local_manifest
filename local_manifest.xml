@@ -21,7 +21,7 @@
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="strongreasons" revision="banana" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="ban" />
         <project path="vendor/asus" name="vendor_asus" remote="strongreasons" revision="master" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660p" remote="strongreasons" revision="eas-13" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="strongreasons" revision="eas-13" />
 
         <!-- azure clang 15.0.0 -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
