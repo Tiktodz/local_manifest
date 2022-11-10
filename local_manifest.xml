@@ -5,8 +5,8 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <!-- remote name="IQ-7"
-        fetch="https://github.com/IQ-7" /-->
+        <remote name="IQ-7"
+        fetch="https://github.com/IQ-7" />
 
         <!-- remote name="Panchajanya1999"
         fetch="https://gitlab.com/Panchajanya1999" /-->
