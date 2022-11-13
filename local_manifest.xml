@@ -5,8 +5,8 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <!-- remote name="IQ-7"
-        fetch="https://github.com/IQ-7" /-->
+        <remote name="lineage"
+        fetch="https://github.com/LineageOS" />
 
         <!-- remote name="Panchajanya1999"
         fetch="https://gitlab.com/Panchajanya1999" /-->
@@ -28,12 +28,12 @@
         <!-- project path="vendor/ANXCamera" name="android_vendor_ANXCamera" remote="Joker-V2" revision="twelve" /-->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="clang-r416183b1" remote="IQ-7" revision="S" /-->
 
-        <!-- remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
-        <remove-project name="LineageOS/android_hardware_qcom_audio" /-->
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
 
-        <!-- project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="karthik1896" revision="12.1" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="karthik1896" revision="12.1" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="karthik1896" revision="12.1" /-->
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="lineage" revision="lineage-19.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="lineage" revision="lineage-19.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="lineage" revision="lineage-19.1-caf-msm8998" />
 
 </manifest>
