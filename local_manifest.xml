@@ -15,7 +15,7 @@
         fetch="https://github.com/xdroid-oss" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="xdroid" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="xd" />
         <project path="vendor/asus" name="vendor_asus" remote="strongreasons" revision="master" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="13"/>
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="strongreasons" revision="banana" />
