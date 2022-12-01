@@ -22,6 +22,8 @@
 
         <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" /-->
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Andra297/gcc-arm64" remote="github" revision="gcc-master" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Andra297/gcc-arm" remote="github" revision="gcc-master" />
 
 	<!-- xdroid-oss staging -->
 	<!-- remove-project name="xd_vendor_xdroid" />
