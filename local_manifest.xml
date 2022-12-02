@@ -26,7 +26,7 @@
         <!-- azure clang 15.0.0 -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
         <!-- project path="vendor/ANXCamera" name="android_vendor_ANXCamera" remote="Joker-V2" revision="twelve" /-->
-        <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" /-->
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
         <!-- Eva GCC 13.0.0 -->
         <!-- project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Andra297/gcc-arm64" remote="github" revision="gcc-master" />
