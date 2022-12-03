@@ -20,11 +20,25 @@
         <remote name="los"
         fetch="https://github.com/LineageOS" />
 
+        <remote name="GM69"
+        fetch="https://github.com//GhostMaster69-dev" />
+
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="xd" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="arrow" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="TNL" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="Turu" />
+
+        <!-- build repo -->
+        <remove-project name="android_build" />
+        <project path="build/make" name="arrow_build" remote="GM69" revision="arrow-13.0" clone-depth="1" >
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+        </project>
 
         <!-- azure clang 15.0.0 -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
@@ -35,12 +49,46 @@
         <!-- project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Andra297/gcc-arm64" remote="github" revision="gcc-master" />
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Andra297/gcc-arm" remote="github" revision="gcc-master" /-->
 
-        <remove-project name="android_hardware_qcom_display" />
+        <!-- remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_audio" /-->
 
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="los" revision="lineage-20.0-caf-msm8998" />
+        <!-- project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="los" revision="lineage-20.0-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="los" revision="lineage-20.0-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-20.0-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-20.0-caf-msm8998" /-->
+
+        <!-- Bluetooth -->
+        <remove-project name="android_packages_modules_Bluetooth" />
+        <project path="packages/modules/Bluetooth" name="arrow_packages_modules_Bluetooth" remote="GM69" revision="arrow-13.0" clone-depth="1" />
+
+        <!-- Framework Base -->
+        <remove-project name="android_frameworks_base" />
+        <project path="frameworks/base" name="arrow_frameworks_base" remote="GM69" revision="arrow-13.0" clone-depth="1" />
+
+        <!-- Framework Native -->
+        <remove-project name="android_frameworks_native" />
+        <project path="frameworks/native" name="arrow_frameworks_native" remote="GM69" revision="arrow-13.0" clone-depth="1" />
+
+        <!-- Framework Telephony (Opt) -->
+        <remove-project name="android_frameworks_opt_telephony" />
+        <project path="frameworks/opt/telephony" name="arrow_frameworks_opt_telephony" remote="GM69" revision="arrow-13.0" clone-depth="1" />
+
+        <!-- LMKD -->
+        <remove-project name="platform/system/memory/lmkd" />
+        <project path="system/memory/lmkd" name="arrow_system_memory_lmkd" remote="GM69" revision="arrow-13.0" clone-depth="1" />
+
+        <!-- Settings -->
+        <remove-project name="android_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="arrow_packages_apps_Settings" remote="GM69" revision="arrow-13.0" clone-depth="1" />
+
+        <!-- Vendor -->
+        <remove-project name="android_vendor_arrow" />
+        <project path="vendor/arrow" name="android_vendor_arrow" remote="GM69" revision="arrow-13.0" clone-depth="1" />
+
+        <remove-project name="platform/frameworks/libs/net" />
+        <project path="frameworks/libs/net" name="arrow_frameworks_libs_net" remote="GM69" revision="arrow-13.0" clone-depth="1" />
+
+        <remove-project name="android_packages_modules_Connectivity" />
+        <project path="packages/modules/Connectivity" name="arrow_packages_modules_Connectivity" remote="GM69" revision="arrow-13.0" clone-depth="1" />
 
 </manifest>
