@@ -17,8 +17,8 @@
         <!-- remote name="Joker-V2"
         fetch="https://gitlab.com/Joker-V2" /-->
 
-        <remote name="los"
-        fetch="https://github.com/LineageOS" />
+        <!-- remote name="los"
+        fetch="https://github.com/LineageOS" /-->
 
         <remote name="GM69"
         fetch="https://github.com//GhostMaster69-dev" />
