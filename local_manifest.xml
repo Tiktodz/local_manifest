@@ -4,21 +4,11 @@
 
     <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-    <!-- remote name="Rasenkai"
-          fetch="https://github.com/Rasenkai" /-->
-    <remote name="ATBlastDon"
-          fetch="https://github.com/ATBlastDon" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="nad" />
-        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="NL" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="lineage-17.1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="nad" />
-
-        <!-- Proton-Clang v13.0.0 Toolchain -->
-        <!-- project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Rasenkai" revision="master" clone-depth="1" /-->
-
-        <!-- Google Camera Go -->
-        <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="nad" />
 
 </manifest>
