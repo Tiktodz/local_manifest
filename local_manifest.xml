@@ -13,7 +13,7 @@
   <remote name="los"
           fetch="https://github.com/LineageOS" />
   <remote name="derp"
-          fetch="https://github.com/DerpFest-AOSPA" />
+          fetch="https://github.com/DerpFest-AOSP" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="14" />
