@@ -2,31 +2,69 @@
 
 <manifest>
 
-        <remote name="Tiktodz"
-        fetch="https://github.com/Tiktodz" />
+        <!-- remote name="Kneba"
+        fetch="https://github.com/Kneba" /-->
 
-        <remote name="pranavkapoor001"
-        fetch="https://github.com/pranavkapoor001" />
+        <!-- remote name="Tiktodz"
+        fetch="https://github.com/Tiktodz" /-->
 
-        <remote name="ATBlastDon"
-        fetch="https://github.com/ATBlastDon" />
+        <!-- remote name="strongreasons"
+        fetch="https://github.com/strongreasons" /-->
+
+        <!-- remote name="asle"
+        fetch="https://github.com/aslenofarid" /-->
+
+        <remote name="rr"
+        fetch="https://gitlab.com/rr-os" />
+
+        <remote name="gitlab"
+        fetch="https://gitlab.com" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00TD" remote="Tiktodz" revision="lossd" />
-        <project path="vendor/asus" name="vendor_asus_q" remote="Tiktodz" revision="lossd" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660_OldQ" remote="pranavkapoor001" revision="lineage-17.1" />
+        <project path="device/asus/X00TD" name="strongreasons/device_asus_X00TD" remote="github" revision="17.1" />
+        <project path="vendor/asus" name="strongreasons/vendor_asus" remote="github" revision="17.1" />
+        <project path="kernel/asus/sdm660" name="Tiktodz/android_kernel_asus_sdm636" remote="github" revision="extreme" />
+        <project path="device/asus/sdm660-common" name="Tiktodz/android_device_asus_sdm660-common" remote="github" revision="lineage-17.1" />
 
-        <!-- Remove HALs -->
-        <remove-project name="LineageOS/android_vendor_lineage" />
+        <remove-project name="LineageOS/android_build" />
+        <project path="build/make" name="strongreasons/android_build" remote="github" revision="lineage-17.1" groups="pdk" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+        </project>
+
+        <!-- Audio -->
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="strongreasons/hardware_qcom-caf_msm8998_audio" remote="github" revision="ten" />
+
+        <!-- FaceUnlock -->
+        <project path="external/motorola/faceunlock" name="external_utils" remote="rr" revision="Q" />
+
+        <!-- Frameworks base -->
         <remove-project name="LineageOS/android_frameworks_base" />
+        <project path="frameworks/base" name="strongreasons/android_frameworks_base" remote="github" revision="base" />
+
+        <!-- Lineage-sdk -->
+        <remove-project name="LineageOS/android_lineage-sdk" />
+        <project path="lineage-sdk" name="Kneba/android_lineage-sdk" remote="github" revision="lineage-17.1" />
+
+        <!-- PixelExperience pack -->
+        <project path="external/asus/stitchimage" name="pixelexperience/external_asus_stitchimage" remote="github" revision="ten-plus" />
+
+        <!-- Sepolicy -->
+        <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+        <project path="device/lineage/sepolicy" name="strongreasons/android_device_lineage_sepolicy" remote="github" revision="lineage-17.1" />
+
+        <!-- Settings -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="strongreasons/android_packages_apps_Settings" remote="github" revision="base" />
 
-        <!-- Sync HALs -->
-        <project name="android_vendor_lineage" path="vendor/lineage" remote="Tiktodz" revision="lineage-17.1" />
-        <project name="android_frameworks_base" path="frameworks/base" remote="Tiktodz" revision="lineage-17.1" />
-        <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="Tiktodz" revision="lineage-17.1" />
-
-        <!-- Google Camera Go -->
-        <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
+        <!-- Vendor -->
+        <remove-project name="LineageOS/android_vendor_lineage" />
+        <project path="vendor/lineage" name="strongreasons/android_vendor_lineage" remote="github" revision="10" />
 
 </manifest>
