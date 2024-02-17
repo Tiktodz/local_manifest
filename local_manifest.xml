@@ -15,7 +15,7 @@
           fetch="https://github.com/strongreasons" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="crd" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="banana" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="14" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Tiktodz" revision="udc" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="14" />
