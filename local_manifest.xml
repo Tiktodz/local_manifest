@@ -16,29 +16,29 @@
           fetch="https://github.com/DerpFest-AOSP" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="14" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="blaze" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="blaze" />
+        <!-- project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="blaze" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14" />
-        <project path="device/asus/sdm660-common" name="common_backup" remote="Tiktodz" revision="14" />
+        <project path="device/asus/sdm660-common" name="common_backup" remote="Tiktodz" revision="14" /-->
 
         <!-- remove-project name="packages_modules_Connectivity" />
         <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="los" revision="lineage-20.0" /-->
 
         <!-- msm8998 HALs -->
-        <remove-project name="hardware_qcom_audio" />
+        <!-- remove-project name="hardware_qcom_audio" />
         <remove-project name="hardware_qcom_media" />
         <remove-project name="hardware_qcom_display" />
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="Tiktodz" revision="u" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="Tiktodz" revision="u" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="u" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="u" /-->
 
         <!-- Display HALs -->
-        <remove-project name="vendor_qcom_opensource_display-commonsys" />
+        <!-- remove-project name="vendor_qcom_opensource_display-commonsys" />
         <remove-project name="vendor_qcom_opensource_commonsys-intf_display" />
         <remove-project name="vendor_qcom_opensource_display" />
         <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="Tiktodz" revision="u" />
         <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="Tiktodz" revision="u" />
-        <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="Tiktodz" revision="u" />
+        <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="Tiktodz" revision="u" /-->
 
         <!-- Frameworks native -->
         <!-- remove-project name="frameworks_native" />
