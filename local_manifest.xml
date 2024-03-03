@@ -12,11 +12,11 @@
           fetch="https://github.com/Kendras056" /-->
   <!-- remote name="los"
           fetch="https://github.com/LineageOS" /-->
-  <remote name="blaze"
+  <remote name="pbd"
           fetch="https://github.com/ProjectBlaze-Devices" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="blaze" revision="14" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="pbd" revision="14" />
         <!-- project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="blaze" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14" />
         <project path="device/asus/sdm660-common" name="common_backup" remote="Tiktodz" revision="14" /-->
