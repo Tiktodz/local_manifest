@@ -6,8 +6,8 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="strongreasons"
           fetch="https://github.com/strongreasons" />
-  <remote name="varunhardgamer"
-          fetch="https://gitlab.com/varunhardgamer" />
+  <!-- remote name="varunhardgamer"
+          fetch="https://gitlab.com/varunhardgamer" /-->
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="pe" depth="1" />
@@ -16,6 +16,6 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="strongreasons" revision="eas" depth="1" />
 
         <!-- Toolchains -->
-        <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" remote="varunhardgamer" revision="17" depth="1" />
+        <!-- project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" remote="varunhardgamer" revision="17" depth="1" /-->
 
 </manifest>
