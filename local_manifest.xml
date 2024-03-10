@@ -4,16 +4,18 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <!-- remote name="ATBlastDon"
-          fetch="https://github.com/ATBlastDon" /-->
+  <remote name="strongreasons"
+          fetch="https://github.com/strongreasons" />
+  <remote name="varunhardgamer"
+          fetch="https://gitlab.com/varunhardgamer" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="pe" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="T" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="Turu" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="temporary" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="pe" depth="1" />
+        <project path="vendor/asus" name="vendor_asus" remote="strongreasons" revision="13" depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="tom/eas" depth="1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="strongreasons" revision="eas" depth="1" />
 
-        <!-- Google Camera Go -->
-        <!-- project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" /-->
+        <!-- Toolchains -->
+        <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" remote="varunhardgamer" revision="17" depth="1" />
 
 </manifest>
