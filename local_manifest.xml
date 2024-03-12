@@ -6,9 +6,9 @@
         fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="evox" />
-        <project path="vendor/asus" name="vt" remote="Tiktodz" revision="evox" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="eas" />
+        <!-- project path="vendor/asus" name="vt" remote="Tiktodz" revision="evox" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="mineas" />
-        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="evox" />
+        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="evox" /-->
 
 </manifest>
