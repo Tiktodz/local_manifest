@@ -5,20 +5,20 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <remote name="Corvus"
-        fetch="https://github.com/Corvus-R" />
+        <remote name="aslenofarid"
+        fetch="https://github.com/aslenofarid" />
 
         <remote name="dhimanparas20"
         fetch="https://github.com/dhimanparas20" />
 
         <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-1" remote="Tiktodz" revision="11" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="los" />
-        <project path="vendor/asus" name="vendor_asus" remote="dhimanparas20" revision="11" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="r42" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="11" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="11" />
+        <project path="vendor/asus" name="vendor_asus" remote="aslenofarid" revision="lineage-18.1" />
+        <!-- project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="r42" /-->
 
-        <project name="vendor_packages" path="vendor/packages" remote="dhimanparas20" revision="master" />
+        <!-- project name="vendor_packages" path="vendor/packages" remote="dhimanparas20" revision="master" />
         <project name="ZenParts" path="packages/apps/ZenParts" remote="Tiktodz" revision="final" />
-        <project name="android_external_airbnb-lottie" path="external/airbnb-lottie" remote="Corvus" revision="11" />
+        <project name="android_external_airbnb-lottie" path="external/airbnb-lottie" remote="Corvus" revision="11" /-->
 
 </manifest>
