@@ -21,7 +21,7 @@
         <project name="ZenParts" path="packages/apps/ZenParts" remote="Tiktodz" revision="final" clone-depth="1" />
         <project name="android_external_airbnb-lottie" path="external/airbnb-lottie" remote="Corvus" revision="11" clone-depth="1" /-->
 
-        <remove-project name="prebuilts/clang/host/linux-x86" />
+        <!-- remove-project name="prebuilts/clang/host/linux-x86" /-->
         <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
 </manifest>
