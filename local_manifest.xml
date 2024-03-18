@@ -12,13 +12,16 @@
         fetch="https://github.com/dhimanparas20" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="11" />
-        <!-- project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="11" />
-        <project path="vendor/asus" name="vendor_asus" remote="aslenofarid" revision="lineage-18.1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="r42" /-->
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="11" clone-depth="1" />
+        <!-- project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="11" clone-depth="1" />
+        <project path="vendor/asus" name="vendor_asus" remote="aslenofarid" revision="lineage-18.1" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="r42" clone-depth="1" /-->
 
-        <!-- project name="vendor_packages" path="vendor/packages" remote="dhimanparas20" revision="master" />
-        <project name="ZenParts" path="packages/apps/ZenParts" remote="Tiktodz" revision="final" />
-        <project name="android_external_airbnb-lottie" path="external/airbnb-lottie" remote="Corvus" revision="11" /-->
+        <!-- project name="vendor_packages" path="vendor/packages" remote="dhimanparas20" revision="master" clone-depth="1" />
+        <project name="ZenParts" path="packages/apps/ZenParts" remote="Tiktodz" revision="final" clone-depth="1" />
+        <project name="android_external_airbnb-lottie" path="external/airbnb-lottie" remote="Corvus" revision="11" clone-depth="1" /-->
+
+        <remove-project name="prebuilts/clang/host/linux-x86" />
+        <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
 </manifest>
