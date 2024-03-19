@@ -12,8 +12,8 @@
           fetch="https://github.com/Kendras056" /-->
   <!-- remote name="los"
           fetch="https://github.com/LineageOS" /-->
-  <remote name="pbd"
-          fetch="https://github.com/ProjectBlaze-Devices" />
+  <!-- remote name="pbd"
+          fetch="https://github.com/ProjectBlaze-Devices" /-->
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="blaze" />
