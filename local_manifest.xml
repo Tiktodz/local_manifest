@@ -5,11 +5,11 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <remote name="aslenofarid"
-        fetch="https://github.com/aslenofarid" />
+        <!-- remote name="aslenofarid"
+        fetch="https://github.com/aslenofarid" /-->
 
-        <remote name="dhimanparas20"
-        fetch="https://github.com/dhimanparas20" />
+        <!-- remote name="dhimanparas20"
+        fetch="https://github.com/dhimanparas20" /-->
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="11" clone-depth="1" />
@@ -22,6 +22,6 @@
         <project name="android_external_airbnb-lottie" path="external/airbnb-lottie" remote="Corvus" revision="11" clone-depth="1" /-->
 
         <!-- remove-project name="prebuilts/clang/host/linux-x86" /-->
-        <!-- remove-project name="platform/prebuilts/clang/host/linux-x86" /-->
+        <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
 </manifest>
