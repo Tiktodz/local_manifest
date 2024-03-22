@@ -8,7 +8,7 @@
         fetch="https://gitlab.com/ImSurajxD" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00TD" remote="Tiktodz" revision="13/hmp" clone-depth="1" />
+        <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="13/hmp" clone-depth="1" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="13-hmp" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 
