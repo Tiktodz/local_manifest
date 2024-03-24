@@ -6,8 +6,8 @@
           fetch="https://github.com/strongreasons" /-->
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <!-- remote name="ImSurajxD"
-          fetch="https://gitlab.com/ImSurajxD" /-->
+  <remote name="inferno0230"
+          fetch="https://gitlab.com/inferno0230" />
   <!-- remote name="Kendras056"
           fetch="https://github.com/Kendras056" /-->
   <!-- remote name="los"
@@ -54,5 +54,6 @@
 
         <!-- Toolchain Clang -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /-->
+        <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="inferno0230" revision="thirteen" clone-depth="1" />
 
 </manifest>
