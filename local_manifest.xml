@@ -23,16 +23,16 @@
         <remote name="AslenoLineageStuff"
         fetch="https://github.com/AslenoLineageStuff" />
 
-        <remove-project name="device/asus/X00TD" />
+        <!-- remove-project name="device/asus/X00TD" />
         <remove-project name="device/asus/sdm660-common" />
         <remove-project name="kernel/asus/sdm660" />
-        <remove-project name="vendor/asus" />
+        <remove-project name="vendor/asus" /-->
 
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00T" remote="lineageX00T" revision="lineage-17.1" />
         <project path="vendor/asus" name="android_vendor_asus" remote="lineageX00T" revision="lineage-17.1" />
-        <project path="kernel/asus/sdm660" name="msm-4.4" remote="AslenoLineageStuff" revision="lineage-17.1" />
+        <project path="kernel/asus/sdm660" name="msm-4.4" remote="AslenoLineageStuff" revision="r42" />
 
         <remove-project name="LineageOS/android_build" />
         <project path="build/make" name="android_build" remote="lineageX00T" revision="lineage-17.1" groups="pdk" >
