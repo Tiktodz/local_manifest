@@ -54,6 +54,6 @@
 
         <!-- Toolchain Clang -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /-->
-        <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="inferno0230" revision="thirteen" clone-depth="1" />
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="inferno0230" revision="thirteen" clone-depth="1" /-->
 
 </manifest>
