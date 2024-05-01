@@ -2,14 +2,29 @@
 
 <manifest>
 
-        <!-- Remote -->
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
+        <remote name="sotod"
+        fetch="https://github.com/sotodrom" />
+        <remote name="inexdroid"
+        fetch="https://github.com/inexdroid" />
+        <remote name="sol"
+        fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="komodo" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="komodo" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="komodo" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="eas" />
+        <project path="vendor/asus" name="vendor_asus" remote="sotod" revision="44" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="sotod" revision="14" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <!-- remove-project name="external/bash" />
+        <remove-project name="external/libncurses" /-->
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="inexdroid" revision="14" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="inexdroid" revision="14" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="inexdroid" revision="14" />
+        <!-- project path="external/bash" name="android_external_bash" remote="sol" revision="lineage-21.0" />
+        <project path="external/libncurses" name="android_external_libncurses" remote="sol" revision="lineage-21.0" /-->
 
 </manifest>
