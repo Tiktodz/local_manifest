@@ -4,18 +4,18 @@
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
-        <remote name="lineageX00T"
-        fetch="https://github.com/lineageX00T" />
+        <remote name="sotod"
+        fetch="https://github.com/sotodrom" />
         <remote name="inexdroid"
         fetch="https://github.com/inexdroid" />
         <remote name="sol"
         fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="eas" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="lineageX00T" revision="u" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="sotod" revision="evo" />
+        <project path="vendor/asus" name="vendor_asus" remote="sotod" revision="44" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="lineageX00T" revision="14" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="sotod" revision="14" />
         <remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
