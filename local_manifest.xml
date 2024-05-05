@@ -26,5 +26,7 @@
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="inexdroid" revision="14" />
         <!-- project path="external/bash" name="android_external_bash" remote="sol" revision="lineage-21.0" />
         <project path="external/libncurses" name="android_external_libncurses" remote="sol" revision="lineage-21.0" /-->
+        <remove-project name="crdroidandroid/android_frameworks_native" />
+        <project path="frameworks/native" name="frameworks_native" remote="Tiktodz" revision="14" />
 
 </manifest>
