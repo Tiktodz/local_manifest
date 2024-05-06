@@ -12,7 +12,7 @@
         fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="eas" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="sotod" revision="14" />
         <project path="vendor/asus" name="vendor_asus" remote="sotod" revision="44" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="sotod" revision="14" />
