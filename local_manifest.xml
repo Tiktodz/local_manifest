@@ -22,7 +22,7 @@
         <!-- remove-project name="external/bash" />
         <remove-project name="external/libncurses" /-->
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="inexdroid" revision="14" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="inexdroid" revision="14-los" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="inexdroid" revision="14" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="inexdroid" revision="14" />
         <!-- project path="external/bash" name="android_external_bash" remote="sol" revision="lineage-21.0" />
         <project path="external/libncurses" name="android_external_libncurses" remote="sol" revision="lineage-21.0" /-->
