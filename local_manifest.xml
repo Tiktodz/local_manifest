@@ -4,14 +4,9 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="strongreasons"
-          fetch="https://github.com/strongreasons" />
-  <remote name="pbd"
-          fetch="https://github.com/ProjectBlaze-Devices" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="udc" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="pbd" revision="14" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="pbd" revision="14" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="matrixx-4.19" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="udc-4.19" />
 
 </manifest>
