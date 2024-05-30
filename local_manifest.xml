@@ -6,7 +6,7 @@
           fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="matrixx-4.19" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="evoxyz" />
         <project path="vendor/asus" name="android_vendor_asus_X00TD" remote="Tiktodz" revision="udc-4.19" />
 
 </manifest>
