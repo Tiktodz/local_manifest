@@ -19,15 +19,20 @@
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="blaze-4.4" />
         <project path="vendor/asus" name="android_vendor_asus_X00TD" remote="Tiktodz" revision="udc-4.4" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14" />
-        <!-- project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="sotod" revision="blaze" /-->
 
-        <!-- remove-project name="packages_modules_Connectivity" />
-        <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="los" revision="lineage-20.0" /-->
+        <!-- build HALs -->
+        <remove-project name="build_make" />
+        <project path="build/make" name="build_make" remote="sotod" revision="14" >
+          <copyfile src="core/root.mk" dest="Makefile" />
+          <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+          <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+          <linkfile src="core" dest="build/core" />
+          <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+          <linkfile src="target" dest="build/target" />
+          <linkfile src="tools" dest="build/tools" />
+        </project>
 
-        <!-- remove-project name="device_qcom_sepolicy-legacy-um" />
-        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="Tiktodz" revision="blaze" /-->
-
-        <!-- msm8998 HALs -->
+        <!-- MSM8998 HALs -->
         <remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
@@ -35,25 +40,9 @@
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="inexdroid" revision="14" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="inexdroid" revision="14" />
 
-        <!-- Display HALs -->
-        <!-- remove-project name="vendor_qcom_opensource_display-commonsys" />
-        <remove-project name="vendor_qcom_opensource_commonsys-intf_display" />
-        <remove-project name="vendor_qcom_opensource_display" />
-        <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="Tiktodz" revision="u" />
-        <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="Tiktodz" revision="u" />
-        <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="Tiktodz" revision="u" /-->
-
-        <!-- Frameworks native -->
-        <!-- remove-project name="frameworks_native" />
-        <project path="frameworks/native" name="frameworks_native" remote="strongreasons" revision="13" /-->
-
-        <!-- Power -->
-        <!-- remove-project name="android_vendor_qcom_opensource_power" />
-        <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" /-->
-
-        <!-- Themes -->
-        <!-- remove-project name="packages_overlays_Themes" />
-        <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="Tiktodz" revision="13" /-->
+        <!-- vendor HALs -->
+        <remove-project name="vendor_blaze" />
+        <project path="vendor/blaze" name="vendor_blaze" remote="sotod" revision="14" />
 
         <!-- Toolchain Clang -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /-->
