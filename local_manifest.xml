@@ -21,7 +21,7 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14" />
 
         <!-- build HALs -->
-        <remove-project name="build_make" />
+        <!-- remove-project name="build_make" />
         <project path="build/make" name="build_make" remote="Tiktodz" revision="14" >
           <copyfile src="core/root.mk" dest="Makefile" />
           <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -30,7 +30,7 @@
           <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
           <linkfile src="target" dest="build/target" />
           <linkfile src="tools" dest="build/tools" />
-        </project>
+        </project -->
 
         <!-- MSM8998 HALs -->
         <remove-project name="android_hardware_qcom_audio" />
