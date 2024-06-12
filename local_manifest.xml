@@ -8,8 +8,8 @@
           fetch="https://github.com/Tiktodz" />
   <!-- remote name="inferno0230"
           fetch="https://gitlab.com/inferno0230" /-->
-  <remote name="sotod"
-          fetch="https://github.com/sotodrom" />
+  <!-- remote name="sotod"
+          fetch="https://github.com/sotodrom" /-->
   <remote name="inexdroid"
           fetch="https://github.com/inexdroid" />
   <!-- remote name="pbd"
