@@ -16,10 +16,10 @@
           fetch="https://github.com/ProjectBlaze-Devices" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" remote="Tiktodz" revision="lineage-21.0" />
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="Tiktodz" revision="lineage-21.0" />
+        <!-- project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" remote="Tiktodz" revision="lineage-21.0" /-->
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="wiped" />
         <!-- project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Tiktodz" revision="staging" /-->
-        <project path="vendor/asus" name="proprietary_vendor_asus-4.19" remote="Tiktodz" revision="lineage-21.0" />
+        <project path="vendor/asus" name="android_vendor_asus_X00TD" remote="Tiktodz" revision="udc-4.4" />
 
         <!-- build HALs -->
         <!-- remove-project name="build_make" />
