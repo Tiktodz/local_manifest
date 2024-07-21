@@ -1,52 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
-
-  <!-- remote name="strongreasons"
-          fetch="https://github.com/strongreasons" /-->
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
-  <!-- remote name="inferno0230"
-          fetch="https://gitlab.com/inferno0230" /-->
-  <!-- remote name="sotod"
-          fetch="https://github.com/sotodrom" /-->
-  <remote name="inexdroid"
-          fetch="https://github.com/inexdroid" />
-  <!-- remote name="pbd"
-          fetch="https://github.com/ProjectBlaze-Devices" /-->
-
-        <!-- Sync trees -->
-        <!-- project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" remote="Tiktodz" revision="lineage-21.0" /-->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="wiped" />
-        <!-- project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Tiktodz" revision="staging" /-->
-        <project path="vendor/asus" name="android_vendor_asus_X00TD" remote="Tiktodz" revision="udc-4.4" />
-
-        <!-- build HALs -->
-        <!-- remove-project name="build_make" />
-        <project path="build/make" name="build_make" remote="Tiktodz" revision="14" >
-          <copyfile src="core/root.mk" dest="Makefile" />
-          <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-          <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-          <linkfile src="core" dest="build/core" />
-          <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-          <linkfile src="target" dest="build/target" />
-          <linkfile src="tools" dest="build/tools" />
-        </project -->
-
-        <!-- MSM8998 HALs -->
-        <!-- remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="inexdroid" revision="14" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="inexdroid" revision="14" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="inexdroid" revision="14" /-->
-
-        <!-- vendor HALs -->
-        <!--remove-project name="vendor_blaze" />
-        <project path="vendor/blaze" name="vendor_blaze" remote="sotod" revision="14" /-->
-
-        <!-- Toolchain Clang -->
-        <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /-->
-        <!-- project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="inferno0230" revision="thirteen" clone-depth="1" /-->
-
+        <project path="device/asus/X00TD" name="Tiktodz/android_device_asus_X00TD" remote="github" revision="everest" />
+        <project path="vendor/asus" name="Tiktodz/android_vendor_asus_X00TD" remote="github" revision="udc-4.19" />
 </manifest>
