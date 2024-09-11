@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <project path="device/asus/X00TD" name="Tiktodz/android_device_asus_X00TD" remote="github" revision="everest" />
-        <project path="vendor/asus" name="Tiktodz/android_vendor_asus_X00TD" remote="github" revision="udc-4.19" />
+        <project path="device/asus/X00TD" name="Tiktodz/android_device_asus_X00TD-4.19" remote="github" revision="lineage-21.0" />
+        <!-- project path="vendor/asus" name="Tiktodz/android_vendor_asus_X00TD" remote="github" revision="udc-4.19" /-->
 </manifest>
