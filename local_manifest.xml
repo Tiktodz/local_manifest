@@ -11,11 +11,14 @@
         <remote name="sotod"
         fetch="https://github.com/sotodrom" />
 
+        <remote name="texascake"
+        fetch="https://github.com/texascake" />
+
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="sotod" revision="evo" />
-        <project path="vendor/asus" name="vendor_asus" remote="sotod" revision="44" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="sotod" revision="evo" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.4" remote="Tiktodz" revision="udc" />
+        <project path="vendor/asus" name="android_vendor_asus-4.4" remote="Tiktodz" revision="udc" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="texascake" revision="14-ksu" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.4" remote="Tiktodz" revision="udc" />
 
         <!-- Stuffs -->
         <remove-project name="android_hardware_qcom_audio" />
