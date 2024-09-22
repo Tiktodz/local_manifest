@@ -21,11 +21,11 @@
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.4" remote="Tiktodz" revision="udc" /-->
 
         <!-- Stuffs -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <!-- remove-project name="LineageOS/android_hardware_qcom_audio" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="inexdroid" revision="14" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="inexdroid" revision="14" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="inexdroid" revision="14" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="inexdroid" revision="14" /-->
 
 </manifest>
