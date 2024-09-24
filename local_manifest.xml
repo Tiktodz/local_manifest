@@ -4,12 +4,12 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="Chaitanyakm"
-          fetch="https://github.com/Chaitanyakm" />
+  <!-- remote name="Chaitanyakm"
+          fetch="https://github.com/Chaitanyakm" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="evoxyz" />
-        <project path="vendor/asus" name="android_vendor_asus_X00TD" remote="Tiktodz" revision="udc-4.19" />
-        <project path="vendor/bcr" name="vendor_bcr" remote="Chaitanyakm" revision="main" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="Tiktodz" revision="lineage-21.0" />
+        <!-- project path="vendor/asus" name="android_vendor_asus_X00TD" remote="Tiktodz" revision="udc-4.19" />
+        <project path="vendor/bcr" name="vendor_bcr" remote="Chaitanyakm" revision="main" /-->
   
 </manifest>
