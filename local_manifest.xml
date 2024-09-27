@@ -23,24 +23,24 @@
         <remote name="GM69"
         fetch="https://github.com/GhostMaster69-dev" />
 
-        <remote name="Corvus"
-        fetch="https://github.com/Corvus-AOSP" />
+        <remote name="Pulkit077"
+        fetch="https://github.com/Pulkit077" />
 
         <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="xd" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="arrow" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="TNL" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="Turu" />
+        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="Tiktodz" revision="lineage-20" />
+        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="Tiktodz" revision="lineage-20" />
+        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="Pulkit077" revision="lineage-20-ln8000" />
+        <project path="vendor/xiaomi/sweet-misound" name="vendor_xiaomi_sweet-misound" remote="Pulkit077" revision="lineage-20" />
 
         <!-- Vendor -->
-        <remove-project name="android_vendor_arrow" />
-        <project path="vendor/arrow" name="android_vendor_arrow" remote="GM69" revision="arrow-13.0" />
+        <!-- remove-project name="android_vendor_arrow" />
+        <project path="vendor/arrow" name="android_vendor_arrow" remote="GM69" revision="arrow-13.0" /-->
 
         <!-- Toolchains-->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
         <!-- project path="vendor/ANXCamera" name="android_vendor_ANXCamera" remote="Joker-V2" revision="twelve" /-->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" /-->
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="android_prebuilts_clang_host_linux-x86_clang-r416183b" remote="Corvus" revision="11" />
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="android_prebuilts_clang_host_linux-x86_clang-r416183b" remote="Corvus" revision="11" /-->
 
         <!-- Eva GCC 13.0.0 -->
         <!-- project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Andra297/gcc-arm64" remote="github" revision="gcc-master" />
