@@ -27,12 +27,12 @@
         fetch="https://github.com/Pulkit077" />
 
         <!-- Sync trees -->
-        <!-- project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="Tiktodz" revision="lineage-20" />
+        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="Tiktodz" revision="lineage-20" />
         <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="Tiktodz" revision="lineage-20" />
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="Pulkit077" revision="lineage-20-ln8000" />
-        <project path="vendor/xiaomi/sweet-misound" name="vendor_xiaomi_sweet-misound" remote="Pulkit077" revision="lineage-20" /-->
+        <project path="vendor/xiaomi/sweet-misound" name="vendor_xiaomi_sweet-misound" remote="Pulkit077" revision="lineage-20" />
 
-        <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="13/hmp" />
+        <!-- project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="13/hmp" /-->
 
         <!-- Vendor -->
         <!-- remove-project name="android_vendor_arrow" />
