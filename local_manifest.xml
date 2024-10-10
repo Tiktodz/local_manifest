@@ -17,8 +17,6 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="sotod" revision="ursa" />
-        <project path="vendor/asus" name="vendor_asus" remote="sotod" revision="ursa" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14" />
 
         <!-- msm8998 HALs -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
