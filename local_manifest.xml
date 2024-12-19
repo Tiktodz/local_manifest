@@ -6,7 +6,8 @@
           fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.4" remote="Tiktodz" revision="main" />
-        <!-- project path="vendor/asus" name="android_vendor_asus_X00TD" remote="Tiktodz" revision="udc-4.19" /-->
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="Tiktodz" revision="lineage-21.0" />
+        <project path="vendor/asus" name="proprietary_vendor_asus-4.19" remote="Tiktodz" revision="lineage-21.0" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" remote="Tiktodz" revision="lineage-21.0" />
 
 </manifest>
