@@ -4,20 +4,7 @@
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
-        <remote name="rayrzy"
-        fetch="https://github.com/rayrzy" />
 
-        <!-- Sync trees -->
-        <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="Tiktodz" revision="lineage-17.1" />
-        <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="Tiktodz" revision="lineage-17.1" />
-        <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="Tiktodz" revision="silont" />
-
-        <!-- Sync HALs -->
-        <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="rayrzy" revision="10-sm8150" />
-        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="rayrzy" revision="10-sm8150" />
-        <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="rayrzy" revision="10-sm8150" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="Tiktodz" revision="16.0" />
 
 </manifest>
