@@ -2,9 +2,13 @@
 
 <manifest>
 
-        <remote name="Tiktodz"
+        <remote name="969"
         fetch="https://github.com/Tiktodz" />
 
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="Tiktodz" revision="16.0" />
+        <!-- Sync trees -->
+        <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" revision="16" remote="969" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-4.19" revision="16" remote="969" clone-depth="1" />
+        <project path="vendor/asus" name="vendor_asus-4.19" revision="16" remote="969" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" revision="queen" remote="969" clone-depth="1" clone-submodules="true" />
 
 </manifest>
