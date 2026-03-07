@@ -4,7 +4,10 @@
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
+        <remote name="texascake"
+        fetch="https://github.com/texascake" />
 
-        <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="Tiktodz" revision="afl" />
+        <!-- project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="Tiktodz" revision="afl" /-->
+        <project path="device/asus/X01BD" name="device_asus_X00TD" remote="texascake" revision="afl" />
 
 </manifest>
