@@ -6,8 +6,12 @@
         fetch="https://github.com/Tiktodz" />
         <remote name="texascake"
         fetch="https://github.com/texascake" />
+        <remote name="rsuntk"
+        fetch="https://gitlab.com/rsuntk-asus-sdm660" />
 
         <!-- project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="Tiktodz" revision="afl" /-->
         <project path="device/asus/X01BD" name="device_asus_X00TD" remote="texascake" revision="afl" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Tiktodz" revision="fuse-bpf-next" clone-depth="1" clone-submodules="true" />
+        <project path="vendor/asus" name="android_vendor_asus_X01BD" remote="rsuntk" revision="lineage-23.2" />
 
 </manifest>
