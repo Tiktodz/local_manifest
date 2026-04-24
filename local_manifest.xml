@@ -5,6 +5,6 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="Tiktodz" revision="16.0" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="Tiktodz" revision="vos" />
 
 </manifest>
